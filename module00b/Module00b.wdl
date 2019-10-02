@@ -6,9 +6,9 @@ version 1.0
 
 ##########################################################################################
 
-import "Structs.wdl"
+import "../Structs.wdl"
 import "BincovQC.wdl" as bqc
-import "MakeBincovMatrix.wdl" as mbm
+import "../module00c/MakeBincovMatrix.wdl" as mbm
 import "PloidyEstimation.wdl" as pe
 import "RawVcfQC.wdl" as vcfqc
 import "WGD.wdl" as wgd

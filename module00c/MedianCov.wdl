@@ -10,7 +10,7 @@ version 1.0
 
 # Workflow definition for Calculating Median Coverage 
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 workflow MedianCov {
   input {

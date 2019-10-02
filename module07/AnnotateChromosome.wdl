@@ -8,7 +8,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 # After VCF and dictionary are scattered per chromosome, apply annotation to scattered per-chromosome VCF
 workflow AnnotateChromosome {

@@ -8,7 +8,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 # Prepare input GTF according to other input dictionaries and output GTF for annotation sub-module
 workflow PrepareGencode {

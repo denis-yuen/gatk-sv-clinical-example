@@ -8,7 +8,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 import "Tasks04.wdl" as tasks04
 
 workflow GenotypePESRPart2 {

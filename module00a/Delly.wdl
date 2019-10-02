@@ -23,7 +23,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 workflow Delly {
   # Run Delly SV detection algorithm on whole genomes in array of

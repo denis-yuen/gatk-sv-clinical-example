@@ -6,16 +6,16 @@ version 1.0
 
 ##########################################################################################
 
-import "Structs.wdl"
+import "../Structs.wdl"
 import "BatchEvidenceMerging.wdl" as bem
 import "CNMOPS.wdl" as cnmops
-import "CollectCoverage.wdl" as cov
+import "../module00a/CollectCoverage.wdl" as cov
 import "DepthPreprocessing.wdl" as dpn
 import "MakeBincovMatrix.wdl" as mbm
 import "MatrixQC.wdl" as mqc
 import "MedianCov.wdl" as mc
 import "PESRPreprocessing.wdl" as pp
-import "GermlineCNVCase.wdl" as gcnv
+import "../gcnv/GermlineCNVCase.wdl" as gcnv
 import "PloidyEstimation.wdl" as pe
 
 # Batch-level workflow:

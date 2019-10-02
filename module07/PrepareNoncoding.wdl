@@ -8,7 +8,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 # Prepare input BED file list containing intervals of noncoding regions and output one BED file for use in annotation sub-module
 workflow PrepareNoncoding {

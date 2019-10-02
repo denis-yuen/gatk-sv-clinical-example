@@ -1,8 +1,8 @@
 version 1.0
 
-import "Structs.wdl"
-import "CollectCoverage.wdl" as cov
-import "CramToBam.wdl" as ctb
+import "../Structs.wdl"
+import "../module00a/CollectCoverage.wdl" as cov
+import "../module00a/CramToBam.wdl" as ctb
 import "GermlineCNVCohort.wdl" as gcnv_cohort
 
 # Trains gCNV model on a cohort with counts already collected

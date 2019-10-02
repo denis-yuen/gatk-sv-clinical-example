@@ -8,7 +8,7 @@
 
 version 1.0
 
-import "Structs.wdl"
+import "../Structs.wdl"
 
 workflow ClusterDepth {
   input {
