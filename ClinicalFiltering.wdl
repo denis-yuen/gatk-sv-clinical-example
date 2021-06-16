@@ -487,7 +487,7 @@ task RewriteSRCoords {
   }
   
   meta {
-    author: "Guest author"
+    author: "Guest author 3"
     email: "guest@gmail.com"
   }
 
