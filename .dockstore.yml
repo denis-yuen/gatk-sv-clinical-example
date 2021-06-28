@@ -5,7 +5,4 @@ workflows:
      publish: false
      filters:  # Only master branch and all tags
          branches:
-             - develop
              - master
-         tags:
-             - /*/
