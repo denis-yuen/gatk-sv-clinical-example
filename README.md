@@ -5,7 +5,7 @@ This repository contains WDL scripts to run the GATK-SV Clinical WGS Structural 
 Clinical WGS SV Pipeline Overview  
 Modules, Steps, and Workflows    
 
-The workflow is divided into several modules shared with the joint calling version of this pipeline as well as several 
+The test workflow is divided into several modules shared with the joint calling version of this pipeline as well as several 
 custom steps specific to clinical processing of a single sample with a reference panel.  
 
 - Module 00: Preprocessing  
