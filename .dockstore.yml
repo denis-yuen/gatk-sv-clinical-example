@@ -3,8 +3,8 @@ workflows:
    - subclass: WDL
      primaryDescriptorPath: /GATKSVPipelineClinicalTest.wdl
      publish: true
-     filters:  # Only develop branch and all tags
+     filters:  # Only main branch and all tags
          branches:
-           - develop
+           - main
          tags:
            - /.*/
