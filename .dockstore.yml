@@ -2,7 +2,7 @@ version: 1.2
 workflows:
    - subclass: WDL
      primaryDescriptorPath: /GATKSVPipelineClinicalTest.wdl
-     publish: false
+     publish: true
      filters:  # Only master branch and all tags
          branches:
            - master
