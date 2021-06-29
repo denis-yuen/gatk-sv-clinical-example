@@ -32,4 +32,9 @@ workflow GATKSVPipelineClinicalTest {
     File metrics_plot_pdf = PlotMetrics.metrics_plot_pdf
     File metrics_plot_tsv = PlotMetrics.metrics_plot_tsv
   }
+  
+  meta {
+    author: "Guest author"
+    email: "guest@gmail.com"
+  }
 }
