@@ -35,4 +35,4 @@ custom steps specific to clinical processing of a single sample with a reference
   
 - Module 05_06: Batch Integration and cleanup
 
-- This is a test
+- This is a test 2
