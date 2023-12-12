@@ -33,4 +33,6 @@ custom steps specific to clinical processing of a single sample with a reference
 
 - Module 04: Genotyping  
   
-- Module 05_06: Batch Integration and cleanup  
+- Module 05_06: Batch Integration and cleanup
+
+- This is a test
